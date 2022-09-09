@@ -1,0 +1,496 @@
+body{
+    margin:0;
+}
+
+nav{
+    /* position: absolute; */
+    display:flex;
+    align-items: flex-end;
+width: 100%;
+height: 121px;
+left: 0px;
+top: 0px;
+background: rgba(217, 217, 217, 0.2);
+backdrop-filter: blur(326.6px);
+
+}
+
+.topbar{
+    /* position: absolute; */
+width: 1343px;
+height: 76px;
+left: calc(50% - 1343px/2 - 0.5px);
+top: calc(50% - 76px/2 - 1560.5px);
+
+}
+.frame21{
+
+  
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    flex:1;
+    height: 80px;
+    margin-left: 15px;
+    margin-right: 15px;
+    
+/* position: absolute;
+width: 404px;
+height: 50px;
+left: 939px;
+top: 13px; */
+}
+
+.elipse{
+
+/* position: absolute; */
+width:51px;
+height: 51px;
+border-radius: 50%;
+/* left: 87.38%;
+right: 5%;
+top: 0%;
+bottom: 0%; */
+
+/* background: url(/Users/aryammann/Desktop/Programs/HTML /ab6761610000e5eb33a061d4dacb3f392a7ee9f0.jpeg), #D9D9D9; */
+}
+
+.search{
+    /* position: absolute; */
+/* width: 295px; */
+/* height: 48px; */
+/* left: 0px;
+top: 1px; */
+height:18px;
+border:1px black;
+padding: 5px;
+width: 20%;
+border-radius: 5px;
+
+display:flex;
+justify-content:flex-start;
+align-items: center;
+
+}
+
+/* .icon{
+    /* position: absolute;
+ left: 2.23%;
+right: 90.84%;
+top: 26%;
+bottom: 18%;  */
+
+
+/* .iconinside{ */
+    /* position: absolute;
+left: 71.01%;
+right: 27.75%;
+top: 41.05%;
+bottom: 36.69%; */
+
+/* } */
+.rectangle{
+    box-sizing: border-box;
+
+/* position: absolute; */
+/* width: 295px; */
+height: 48px;
+/* left: 69.92%;
+right: 8.12%;
+top: 18.42%;
+bottom: 18.42%;  */
+
+background: #FFFFFF;
+border: 1px solid #DAD9DF;
+border-radius: 6px;
+}
+
+.searchtext{
+    /* position: absolute;
+left: 9.9%;
+right: 79.21%;
+top: 34%;
+bottom: 34%; */
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 300;
+font-size: 13px;
+line-height: 16px;
+margin-left: 5px;
+/* identical to box height */
+
+text-transform: uppercase;
+
+/* GTL */
+
+color: #707070;
+}
+
+.navtext{
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 26px;
+    /* identical to box height */
+    
+    text-transform: uppercase;
+    
+    color: #000000;
+    
+}
+
+.grambell{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 900;
+font-size: 21px;
+line-height: 32px;
+text-transform: uppercase;
+
+/* P */
+
+color: #B69859;
+}
+
+.iconinside{
+    margin-top: 5px;
+}
+
+.gram{
+    margin-bottom: -7px;
+}
+
+
+.topbox{
+    /* position: absolute; */
+width: 100%;
+height: 432px;
+left: -1px;
+top: 121px;
+}
+
+.gpicture{
+    /* position: absolute; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+width: 100%;
+height: 365px;
+left: 0px;
+top: 121px;
+background-color: #2B1317;
+
+}
+
+.albumpic{
+
+margin-top: 48px;
+width: 206px;
+height: 192px;
+filter: drop-shadow(0px 0px 25px rgba(0, 0, 0, 0.15));
+border-radius: 5px;
+}
+
+.gou{
+
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 34px;
+line-height: 41px;
+text-align: center;
+letter-spacing: 0.2em;
+text-transform: capitalize;
+
+color: #FFFFFF;
+}
+
+.joji{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 23px;
+line-height: 28px;
+/* identical to box height */
+
+text-align: center;
+text-transform: capitalize;
+
+color: #FFFFFF;
+}
+
+.infotext{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+text-transform: capitalize;
+margin-bottom: 3px;
+/* GTL */
+
+color: #707070;
+}
+
+.ary{
+    position: absolute;
+}
+
+.srectangle{
+    background: linear-gradient(180deg, rgba(223, 34, 38, 0.26) 0%, rgba(255, 255, 255, 0) 100%);
+backdrop-filter: blur(105.467px);
+
+width: 100%;
+height: 70px;
+}
+
+.lyricsrectangle{
+    position:absolute;
+    display: flex;
+    align-items: center;
+    width: 102px;
+height: 33px;
+left: 76px;
+top: 515px;
+
+/* P */
+
+background: #B69859;
+border-radius: 3px;
+}
+.lyrics{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+text-transform: uppercase;
+margin-left: 9px;
+color: #FFFFFF;
+margin-top: 1px;
+
+}
+
+.micsvg{
+ margin-left: 14.28px;
+}
+
+#dotelipse{
+
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:45px;
+    height: 45px;
+    border-radius: 50%;
+    right: 72px;
+    top: 506.5px;
+
+background: rgba(182, 152, 89, 0.2);
+backdrop-filter: blur(24.8px);
+}
+
+.framefelipse{
+    width: 4px;
+    margin:4px;
+height: 4px;
+border-radius: 50%;
+
+/* P */
+
+background: #B69859;
+
+}
+
+.songbox{
+    position: absolute;
+    display:flex;
+    align-items:center;
+width: 1335px;
+height: 52px;
+left: 56px;
+top: 588px;
+
+/* play line grey one */
+
+background: #FBFBFB;
+border-radius: 8px;
+}
+
+.a{
+
+    margin-left: 22.5px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+text-transform: capitalize;
+
+color: #000000;
+
+}
+
+.glimpseofus{
+    margin-left: 37px;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 21px;
+/* identical to box height */
+
+text-transform: capitalize;
+
+color: #000000;
+}
+
+.a303{
+
+    margin-left: 1030px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 21px;
+    text-transform: capitalize;
+    
+    /* GTL */
+    
+    color: #707070;
+    
+
+}
+
+.frameforelipse{
+    margin-left: 27px;
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+justify-content: space-between;
+    width: 22px;
+height: 4px;
+}
+
+.e{
+    width: 4px;
+height: 4px;
+border-radius: 50%;
+
+
+background: #B69859;
+}
+
+.information{
+    position: absolute;
+    
+width: 312px;
+height: 51px;
+top: 703px;
+left: 80px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 17px;
+text-transform: capitalize;
+
+/* GTL */
+
+color: #707070;
+}
+
+.playbar{
+    position: absolute;
+    display: flex;
+    align-items: center;
+width: 100%;
+height: 72px;
+
+
+top: 896px;
+
+
+background: rgba(255, 255, 255, 0.2);
+box-shadow: inset 53.2667px -53.2667px 53.2667px rgba(174, 174, 174, 0.2), inset -53.2667px 53.2667px 53.2667px rgba(255, 255, 255, 0.2);
+backdrop-filter: blur(319.6px);
+}
+
+.albumimage{
+
+    height:46px;
+    width: 46px;
+    margin-left: 26px;   
+    border-radius: 2px;
+}
+
+.name{
+    margin-left: 19px;
+}
+
+.adangeroustime{
+    margin-top: 1px;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+text-transform: capitalize;
+
+color: #000000;
+}
+
+.auroa{
+
+    margin-top: -1px;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height */
+
+text-transform: capitalize;
+
+/* GTL */
+
+color: #707070;
+}
+.group4{
+    margin-left:210px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    height:49px;
+    width:588px;
+}
+
+.fram19{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    height:28px;
+    width:196.16px;
+}
+
+.audiocontrols{
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    height:18px;
+    width:40px;
+}
+
+.forward{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
